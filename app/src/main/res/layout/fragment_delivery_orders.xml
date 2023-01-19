@@ -10,26 +10,24 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/deliveryOrderList"
-        android:layout_width="405dp"
-        android:layout_height="645dp"
+        android:layout_width="404dp"
+        android:layout_height="637dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/deliveryHelpText"
         android:layout_width="374dp"
         android:layout_height="60dp"
+        android:layout_marginTop="30dp"
         android:text="@string/deliverydetails"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/deliveryOrderList"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.848" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

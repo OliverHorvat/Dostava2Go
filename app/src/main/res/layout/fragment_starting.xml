@@ -28,7 +28,7 @@
             android:layout_height="92dp"
             android:layout_marginBottom="60dp"
             android:text="@string/deliveryLogin"
-            android:textSize="18dp"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/userLoginButton"
             app:layout_constraintHorizontal_bias="0.0"
