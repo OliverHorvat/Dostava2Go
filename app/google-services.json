@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1063620628297",
+    "project_id": "dostava2go-dad03",
+    "storage_bucket": "dostava2go-dad03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063620628297:android:dfad440c50c9d9134bd498",
+        "android_client_info": {
+          "package_name": "hr.ferit.oliverhorvat.dostava2go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063620628297-0usisio30ij0m0t5r453n104qi799ri6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_SSw3qFmaIfySlPY9ZIZJT0hxtGjwAfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063620628297-0usisio30ij0m0t5r453n104qi799ri6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

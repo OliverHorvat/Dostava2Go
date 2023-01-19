@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dostava2Go</string>
+    <string name="userLogin">Customer</string>
+    <string name="deliveryLogin">Delivery person</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="order">Order</string>
+    <string name="clearorder">Clear current order</string>
+    <string name="categories">Categories:</string>
+    <string name="orderdetails">Order details</string>
+    <string name="add">+</string>
+    <string name="back">Go back</string>
+    <string name="address">Address</string>
+    <string name="notes">Notes (optional)</string>
+    <string name="confirmorder">Confirm order</string>
+    <string name="phone">Phone number</string>
+    <string name="deliverydetails">Click on order to view it: </string>
+    <string name="notesempty">No notes</string>
+    <string name="deleteorder">Order delivered</string>
+</resources>

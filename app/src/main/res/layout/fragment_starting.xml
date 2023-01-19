@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartingFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/userLoginButton"
+            android:layout_width="293dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/userLogin"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/deliveryLoginButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startingImage" />
+
+        <Button
+            android:id="@+id/deliveryLoginButton"
+            android:layout_width="293dp"
+            android:layout_height="92dp"
+            android:layout_marginBottom="60dp"
+            android:text="@string/deliveryLogin"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/userLoginButton"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/userLoginButton" />
+
+        <ImageView
+            android:id="@+id/startingImage"
+            android:layout_width="388dp"
+            android:layout_height="228dp"
+            android:layout_marginTop="60dp"
+            android:scaleX="1.35"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
